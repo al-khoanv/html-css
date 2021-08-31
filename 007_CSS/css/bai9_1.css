@@ -1,0 +1,13 @@
+div {
+    background-color: rgb(245, 59, 90);
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 275px;
+    width: 360px;
+}
+
+p {
+    background-color: rgb(140, 145, 152);
+    height: 200px;
+    width: 275px;
+}

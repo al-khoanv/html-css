@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(191, 192, 193);
+    font-family: sans-serif, monospace;
+    margin: 0 40px;
+}
+h2 {
+    color: rgb(109, 106, 100);
+    padding: 25px 20px;  
+}
+p{
+    color: white;
+    margin: 0;
+    padding: 5px 10px;
+}

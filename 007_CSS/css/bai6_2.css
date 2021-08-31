@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Alex Brush;
+    src: url(./AlexBrush-Regular.ttf);
+}
+h2 {
+    font-family: Alex Brush;
+}

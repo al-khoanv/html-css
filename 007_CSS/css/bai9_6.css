@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    margin: 20px auto;
+    width: 400px;
+    list-style: none;
+}
+.coming-soon {
+    display: none;
+}
+li {
+    padding: 10px;
+}

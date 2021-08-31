@@ -1,0 +1,20 @@
+body {
+    width: 700px;
+    margin: 40px auto;
+}
+p {
+    width: 200px;
+    margin: 20px auto;
+}
+.normal {
+    border: 2px solid black;
+}
+.have-margin {
+    border: 5px solid black;
+}
+.margin-bottom {
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 2px solid black;
+}

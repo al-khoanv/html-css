@@ -1,0 +1,10 @@
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: Alex Brush;
+    src: url(./AlexBrush-Regular.ttf);
+}
+.font-alexbrush {
+    font-family: Alex Brush;
+}

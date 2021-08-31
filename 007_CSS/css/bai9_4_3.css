@@ -1,0 +1,13 @@
+p {
+    width: 200px;
+    margin: 20px auto;
+}
+.blue {
+    border: 5px solid blue;
+}
+.more-color {
+    border-top: 5px solid gray;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid pink;
+    border-right: 5px solid black;
+}

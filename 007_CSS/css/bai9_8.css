@@ -1,0 +1,15 @@
+.border-top{
+    height: 200px;
+    width: 300px;
+    border: 45px solid transparent ;
+    border-bottom: 0;
+    border-image: url(../imgs/Asset1.png);
+    border-image-slice: 50 0 0;
+}
+.border-bottom {
+    height: 200px;
+    width: 300px;
+    border: 45px solid transparent;
+    border-image: url(../imgs/Asset2.png);
+    border-image-slice: 50 0 0;
+}

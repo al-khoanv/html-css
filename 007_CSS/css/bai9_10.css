@@ -1,0 +1,28 @@
+body {
+    display: flex;
+}
+div {
+    margin: 20px;
+}
+.top-left {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(250, 95, 121);
+    border-top-left-radius: 50px;
+
+}
+
+.normal {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(250, 95, 121);
+    border-radius: 15px;
+    
+}
+
+.round-shape {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(250, 95, 121);
+    border-radius: 50px;
+}

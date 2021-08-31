@@ -1,0 +1,8 @@
+.title > th{
+    color: rgb(8, 129, 241);
+    border-bottom: 1px solid rgb(8, 129, 241);
+}
+.description,
+.prices {
+    vertical-align: top;
+}
