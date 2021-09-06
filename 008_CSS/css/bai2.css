@@ -1,0 +1,44 @@
+/* CSS part 1 */
+.one {
+    width: 600px;
+}
+th {
+    border-top: 2px solid brown;
+    border-bottom: 2px solid black;
+}
+.right {
+    text-align: end;
+}
+.left {
+    text-align: start;
+}
+
+/* CSS part 2 */
+.horizontal {
+    display: flex;
+}
+.table-one {
+    
+    /* height: 160px; */
+    border-collapse: separate;
+    border-spacing: 5px 20px;
+    text-align: center;
+}
+.table-one tr>td,
+.table-two tr>td {
+    width: 75px;
+    border: 2px solid black;
+    background-color: blue;
+    margin-left: 50px;
+}
+/* .table-one tr {
+    border-spacing: 5px 20px;
+} */
+.table-two {
+    width: 150px;
+    height: 160px;
+    border-collapse: collapse;
+    margin-left: 50px;
+    text-align: center;
+}
+

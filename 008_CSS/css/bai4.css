@@ -1,0 +1,31 @@
+body {
+    color: rgb(92, 65, 30);
+}
+form {
+    width: 676px;
+}
+fieldset {
+    border-radius: 5px;
+}
+legend {
+    width: 150px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 5px;
+}
+p {
+    text-align: center;
+}
+input {
+    width: 92%;
+    border: none;
+    border-bottom: 2px solid brown;
+}
+.subscribe {
+    float: right;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(92, 65, 30);
+    color: white;
+    border: none;
+}

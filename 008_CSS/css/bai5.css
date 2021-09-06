@@ -1,0 +1,35 @@
+body {
+    padding-left: 20px;
+}
+ul > li {
+    list-style-image: url('../imgs/star.png');
+}
+table, th, td {
+    border: 1px solid gray;
+}
+table {
+    width: 776px;
+    height: 200px;
+    border-collapse: collapse;
+}
+.top-table > th {
+    color: white;
+    background-color: rgb(81, 161, 252);
+}
+form {
+    width: 500px;
+    margin-top: 20px;
+}
+fieldset {
+    padding: 5px 40px;
+    border-radius: 5px 5px 0 0;
+}
+.input-user > input, 
+.input-user > select {
+    width: 150px;
+    float: right;
+}
+.choose {
+    display: flex;
+    align-items: center;
+}

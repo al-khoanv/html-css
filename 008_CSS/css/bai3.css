@@ -1,0 +1,27 @@
+.input {
+    margin-top: 50px;
+    text-align: center;
+}
+input {
+    width: 200px;
+    height: 33px;
+    margin-bottom: 20px;
+}
+#mail {
+    background-image: url('../imgs/mail.png');
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#txt {
+    background-image: url('../imgs/t-junction.png');
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#web {
+    background-image: url('../imgs/globe.png');
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}

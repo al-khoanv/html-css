@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+}
+
+/* CSS for part 1  */
+.unordered-list {
+    color: rgb(241, 110, 132);
+}
+::marker {
+    color: black;
+}
+.style-none {
+    list-style-type: none; 
+}
+.style-disc {
+    list-style-type: disc;
+}
+.style-circle {
+    list-style-type: circle;
+}
+.style-square {
+    list-style-type: square;
+}
+
+/* CSS for part 2 */
+ol {
+    display: flex;
+    margin-top: 0;
+}
+p {
+    color: rgb(241, 110, 132);
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.style-decimal {
+    list-style-type: decimal;
+    padding: 15px;
+}
+.style-decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+    padding: 15px;
+}
+.style-lower-alpha {
+    list-style-type: lower-alpha;
+    padding: 15px;
+}
+.style-upper-alpha {
+    list-style-type: upper-alpha;
+    padding: 15px;
+}
+.style-lower-roman {
+    list-style-type: lower-roman;
+    padding: 15px;
+}
+.style-upper-roman {
+    list-style-type: upper-roman;
+    padding: 15px;
+}
+
+/* CSS for part 3 */
+.part-three {
+    list-style-image: url('../imgs/star.png');
+}
