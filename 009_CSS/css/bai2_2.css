@@ -1,0 +1,27 @@
+body {
+    margin: 20px 40px;
+}
+h2, p {
+    color: rgb(143, 77, 77);
+}
+h2 {
+    font-size: 30px;
+    padding-left: 15px;
+}
+p {
+    margin-left: 3%;
+}
+.style-float {
+    width: 100%;
+}
+.style-left {
+    background-color: silver;
+    float: left;
+    width: 30%;
+}
+.style-right {
+    background-color: silver;
+    float: left;
+    width: 30%;
+}
+

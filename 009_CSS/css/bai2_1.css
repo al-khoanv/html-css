@@ -1,0 +1,20 @@
+body {
+    margin: 20px 145px;
+}
+blockquote {
+    margin-top: 0;
+    font-size: 20px;
+}
+h2, p, .quote {
+    color: rgb(116, 55, 55);
+}
+h2 {
+    font-size: 30px;
+}
+.style-float {
+    width: 100%
+}
+.quote {
+    float: right;
+    width: 50%;
+}

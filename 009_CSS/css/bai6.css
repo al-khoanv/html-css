@@ -1,0 +1,75 @@
+body {
+    background: #413f3b url("../imgs/background.png");
+    background-position: 14rem 0rem;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+/* CSS header */
+header {
+    background-color: rgb(45, 47, 39, .7);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+li {
+    padding: 0 5px;
+}
+#logo {
+    position: relative;
+    top: 1rem;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+/* CSS main */
+main {
+    padding: 0 22rem;
+    position: relative;
+    top: 9rem;
+    right: 0.3rem;
+}
+.info {
+    display: flex;
+    margin-bottom: 6rem;
+}
+.info-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    position: relative;
+    top: 4rem;
+    text-align: left;
+    align-items: flex-start;
+}
+.info-title {
+    font-size: 30px;
+    margin-top: 0;
+    position: absolute;
+    left: 45rem;
+}
+/* CSS article */
+article {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+}
+.article-title {
+    font-size: 20px;
+}
+.article-title,
+article > div > p {
+    text-align: left;
+}
+
+
+
+
+

@@ -1,0 +1,22 @@
+body {
+    margin: 20px 20px;
+}
+h2 {
+    color: rgb(116, 55, 55);
+    font-size: 30px;
+}
+h3 {
+    background-color: yellow;
+    width: 80px;
+}
+p {
+    color: rgb(143, 77, 77);
+    width: 370px;
+}
+.style-fixed > h2 {
+    background-color: rgb(204, 200, 200);
+    margin-top: 0;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+}

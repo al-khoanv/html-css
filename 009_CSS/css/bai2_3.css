@@ -1,0 +1,22 @@
+body {
+    margin: 20px 40px;
+}
+h2, h4 {
+    color: rgb(116, 55, 55);
+}
+li, p {
+    color: rgb(143, 77, 77);
+}
+.style-float {
+    width: 100%;
+}
+.style-left {
+    float: left;
+    width: 75%;
+    margin-right: 3%;
+}
+.style-right {
+    float: right;
+    width: 22%;
+
+}

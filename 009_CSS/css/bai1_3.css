@@ -1,0 +1,19 @@
+div {
+    position: relative;
+}
+.class-one {
+    background: red;
+    height: 50px;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+}
+.class-two {
+    background: blue;
+    height: 50px;
+    left: 30px;
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    
+}

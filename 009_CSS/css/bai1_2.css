@@ -1,0 +1,52 @@
+body {
+    margin: 20px 20px;
+}
+h2 {
+    color: rgb(116, 55, 55);
+    font-size: 30px;
+}
+h3 {
+    background-color: yellow;
+    width: 80px;
+}
+p {
+    color: rgb(143, 77, 77);
+    width: 370px;
+}
+/* CSS for part 1 */
+.style-normal {
+    position: static;
+}
+.style-normal > h2 {
+    background-color: rgb(204, 200, 200);
+    padding-left: 10px;
+}
+
+/* CSS for part 2 */
+.style-relative {
+    left: 100px;
+    position: relative;
+}
+.left {
+    left: 70px;
+    margin: 30px 0 0;
+    position: relative;
+}
+
+/* CSS for part 3 */
+.style-absolute {
+    height: 500px;
+    width: 400px;
+    position: relative;
+}
+.style-absolute > .child {
+    position: absolute;
+}
+.child > h2 {
+    left: 380px;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    width: 250px
+}
+
